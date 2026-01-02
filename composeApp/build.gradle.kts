@@ -39,7 +39,6 @@ kotlin {
       implementation(libs.ksui)
       implementation(libs.bcs)
       implementation(libs.bignum)
-      implementation(libs.apollo.runtime)
     }
     commonTest.dependencies { implementation(libs.kotlin.test) }
   }
